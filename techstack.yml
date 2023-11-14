@@ -1,0 +1,2223 @@
+repo_name: mcabreradev/dev.to
+report_id: 52514536b03dc64af98ef4a677f23979
+repo_type: Public
+timestamp: '2023-11-14T15:29:22+00:00'
+requested_by: mariocsee
+provider: github
+branch: master
+detected_tools_count: 146
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Liquid
+  description: Open-source template language written in Ruby
+  website_url: https://shopify.github.io/liquid
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1746/no-img-open-source.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.6.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile.lock
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 2.8.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-03-18 15:21:55.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: Dockerfile
+  last_updated_by: Michael
+  last_updated_on: 2018-10-12 15:48:53.000000000 Z
+- name: Preact
+  description: Fast 3kb alternative to React with the same ES6 API
+  website_url: http://developit.github.io/preact/
+  version: 8.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/4388/preact.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Nick Taylor
+  last_updated_on: 2019-08-19 12:58:41.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: yarn.lock
+  detection_source: app/javascript/article-form/__tests__/articleForm.test.jsx
+  last_updated_by: Derek Hopper
+  last_updated_on: 2018-09-12 01:33:48.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 3.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-12 15:36:04.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Pusher
+  description: Hosted APIs to build realtime apps with less code
+  website_url: http://pusher.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/115/preview.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-27 20:03:48.000000000 Z
+- name: Airbrake
+  description: Airbrake captures and groups errors in Ruby, iOS, Django, PHP &amp;
+    more.
+  website_url: https://airbrake.io
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/194/default_2e86c2914d7024c92debaced975586491c2fb0f1.jpg
+  detection_source: config/initializers/airbrake.rb
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-24 15:41:16.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: Brakeman
+  description: A static analysis security vulnerability scanner for Ruby on Rails
+    applications
+  website_url: http://brakemanscanner.org/
+  version: 4.6.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/6577/7b894961369b7c73e2a32f11f845e049_400x400.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-06 18:48:28.000000000 Z
+- name: Capybara
+  description: Acceptance test framework for web applications
+  website_url: http://jnicklas.github.io/capybara/
+  version: 3.28.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2595/capybara.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-12 14:03:33.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 5.48.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-21 14:47:26.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-04-15 18:28:14.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: LiveReload
+  description: CSS edits and image changes apply live. CoffeeScript, SASS, LESS and
+    others just work.
+  website_url: http://livereload.com
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Live Reloading
+  image_url: https://img.stackshare.io/service/2601/128.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-30 13:27:51.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-04-15 18:28:14.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 1.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: Puma
+  description: A Modern, Concurrent Web Server for Ruby
+  website_url: http://puma.io/
+  version: 4.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1055/favicon.png
+  detection_source_url: Gemfile.lock
+  detection_source: config/puma.rb
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-20 21:17:52.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-12 14:58:35.000000000 Z
+- name: Rails Spring
+  description: Rails application preloader
+  website_url: https://github.com/rails/spring
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Rails Testing
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 0.74.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-06-24 13:27:38.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: docs/Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-05-13 23:21:24.000000000 Z
+- name: Skylight
+  description: The smart profiler for your Rails apps
+  website_url: https://www.skylight.io/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/1395/mJIgpLfu.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 21:00:33.000000000 Z
+- name: Timber.io
+  description: Automatically convert logs from messy, hard-to-use, raw text to rich,
+    useful, clean events.
+  website_url: https://timber.io/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/7634/xBNoTqvy_400x400.jpg
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-07 19:59:23.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-07-16 21:11:42.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 3.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Nick Taylor
+  last_updated_on: 2018-06-05 18:50:30.000000000 Z
+- name: Webpacker
+  description: Use Webpack to manage app-like JavaScript modules in Rails (by Rails)
+  website_url: https://github.com/rails/webpacker
+  version: 3.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: Gemfile.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-30 13:27:51.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 11.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-06-03 17:44:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Ahoy
+  description: A solid foundation for analytics on Rails
+  website_url: http://ankane.github.io/ahoy/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Custom Analytics
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: Gemfile
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: Algolia
+  description: Developer-friendly API and complete set of tools for building search
+  website_url: https://www.algolia.com/?utm_source=stackshare&utm_medium=referral
+  version: 1.26.0
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-01 16:20:30.000000000 Z
+- name: CarrierWave
+  description: Classier solution for file uploads for Rails, Sinatra and other Ruby
+    web frameworks
+  website_url: https://github.com/carrierwaveuploader/carrierwave
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Uploads
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-30 13:27:51.000000000 Z
+- name: Cloudinary
+  description: An end-to-end image &amp; video management solution for your web and
+    mobile applications
+  website_url: http://cloudinary.com/
+  open_source: false
+  hosted_saas: true
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/304/default_d0fb82038ec18f67ca33bf6ce0df0bffb427e94f.png
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Fastly
+  description: We're redefining content delivery.
+  website_url: http://www.fastly.com
+  open_source: false
+  hosted_saas: true
+  category: Assets and Media
+  sub_category: Content Delivery Network
+  image_url: https://img.stackshare.io/service/274/9V2sLNfw.png
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Netlify
+  description: Build, deploy and host your static site or app with a drag and drop
+    interface and automatic delpoys from GitHub or Bitbucket
+  website_url: https://www.netlify.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source: netlify.toml
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-08-16 19:52:56.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-12 15:54:48.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source: config/environments/production.rb
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source: Dockerfile
+  last_updated_by: Mazen Touati
+  last_updated_on: 2019-06-17 20:51:11.000000000 Z
+- name: Bootsnap
+  description: Boot large ruby/rails apps faster, by Shopify
+  website_url: https://github.com/shopify/bootsnap
+  version: 1.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ruby Utilities
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Devise
+  description: Flexible authentication solution for Rails with Warden
+  website_url: https://github.com/plataformatec/devise
+  version: 4.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1432/devise.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Foreman
+  website_url: http://theforeman.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3926/no-img-open-source.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-06 18:48:28.000000000 Z
+- name: Google reCaptcha
+  description: A free service that protects your website from spam and abuse
+  website_url: https://www.google.com/recaptcha/intro/index.html
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Security
+  image_url: https://img.stackshare.io/service/4482/dVHQiE0t_400x400.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-12 15:54:07.000000000 Z
+- name: OmniAuth
+  description: OmniAuth is a flexible authentication system utilizing Rack middleware.
+  website_url: https://github.com/intridea/omniauth
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1433/omniauth.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Twitter API
+  description: Build bots that communicate smartly.
+  website_url: https://twitter.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2466/twitterdev_gear.png
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-20 17:57:33.000000000 Z
+- name: UglifyJS
+  description: A JavaScript parser, minifier, compressor and beautifier toolkit.
+  website_url: http://lisperator.net/uglifyjs/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-20 17:56:05.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: activerecord
+  description: Databases on Rails
+  package_url: https://rubygems.org/activerecord
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
+  detection_source_url: Gemfile.lock
+  detection_source: docs/Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-05-02 17:50:58.000000000 Z
+  vulnerabilities:
+  - name: Active Record RCE bug with Serialized Columns
+    cve_id: CVE-2022-32224
+    cve_url: https://github.com/advisories/GHSA-3hhc-qp5v-9p2j
+    detected_date: Jul 13
+    severity: critical
+    first_patched: 5.2.8.1
+  - name: Denial of Service Vulnerability in ActiveRecord's PostgreSQL adapter
+    cve_id: CVE-2022-44566
+    cve_url: https://github.com/advisories/GHSA-579w-22j4-4749
+    detected_date: Jan 19
+    severity: high
+    first_patched: 6.1.7.1
+  - name: Active Record subject to Regular Expression Denial-of-Service (ReDoS)
+    cve_id: CVE-2021-22880
+    cve_url: https://github.com/advisories/GHSA-8hc4-xxm3-5ppp
+    detected_date: Aug 22
+    severity: high
+    first_patched: 5.2.4.5
+- name: activerecord-import
+  description: A library for bulk inserting data using ActiveRecord
+  package_url: https://rubygems.org/activerecord-import
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19285/default_ac42935b3c127ddbb54411fa307a9bc56ea68440.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-15 14:55:02.000000000 Z
+- name: acts-as-taggable-on
+  description: With ActsAsTaggableOn, you can tag a single model on several contexts,
+    such as skills, interests, and awards
+  package_url: https://rubygems.org/acts-as-taggable-on
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19310/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-01 16:20:30.000000000 Z
+- name: addressable
+  description: Addressable is an alternative implementation to the URI implementation
+    that is part of Ruby's standard library
+  package_url: https://rubygems.org/addressable
+  version: 2.6.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18870/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-07 19:59:23.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in Addressable templates
+    cve_id: CVE-2021-32740
+    cve_url: https://github.com/advisories/GHSA-jxhc-q857-3j6g
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.8.0
+- name: administrate
+  description: Administrate is heavily inspired by projects like Rails Admin and ActiveAdmin
+  package_url: https://rubygems.org/administrate
+  version: 0.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19542/default_562580b79fad90dfa9e41120387ed1e3bf8ace9d.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-15 19:18:01.000000000 Z
+  vulnerabilities:
+  - name: Sort order SQL injection in Administrate
+    cve_id: CVE-2020-5257
+    cve_url: https://github.com/advisories/GHSA-2p5p-m353-833w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 0.13.0
+- name: ancestry
+  description: Ancestry allows the records of a ActiveRecord model to be organized
+    in a tree structure, using a single, intuitively formatted database column
+  package_url: https://rubygems.org/ancestry
+  version: 3.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19520/default_6fb1d8b9aef837cfaccc78fd09408418629c0be8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-01 16:30:42.000000000 Z
+- name: autoprefixer-rails
+  description: Parse CSS and add vendor prefixes to CSS rules usingvalues from the
+    Can I Use website
+  package_url: https://rubygems.org/autoprefixer-rails
+  version: 9.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19215/default_e38d6385c75dafbe16c1c806ccf1fd483b747794.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: awesome_print
+  description: 'Great Ruby dubugging companion: pretty print Ruby objects to visualize
+    their structure'
+  package_url: https://rubygems.org/awesome_print
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18862/default_2fe576f13c88e20e645ee0a744c045ee730bcad6.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-06-17 17:37:36.000000000 Z
+- name: better_errors
+  description: Provides a better error page for Rails and other Rack apps
+  package_url: https://rubygems.org/better_errors
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-26 15:54:10.000000000 Z
+  vulnerabilities:
+  - name: Older releases of better_errors open to Cross-Site Request Forgery attack
+    cve_id: CVE-2021-39197
+    cve_url: https://github.com/advisories/GHSA-w3j4-76qw-wwjm
+    detected_date: Sep 8
+    severity: moderate
+    first_patched: 2.8.0
+- name: binding_of_caller
+  description: Retrieve the binding of a method's caller
+  package_url: https://rubygems.org/binding_of_caller
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-06-03 18:50:35.000000000 Z
+- name: bundler-audit
+  description: Bundler-audit provides patch-level verification for Bundled apps
+  package_url: https://rubygems.org/bundler-audit
+  version: 0.6.1
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19086/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-05-02 17:50:58.000000000 Z
+- name: counter_culture
+  description: Counter_culture provides turbo-charged counter caches that are kept
+    up-to-date not just on create and destroy
+  package_url: https://rubygems.org/counter_culture
+  version: 2.2.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mac Siri
+  last_updated_on: 2019-06-03 19:01:05.000000000 Z
+- name: dalli
+  description: High performance memcached client for Ruby
+  package_url: https://rubygems.org/dalli
+  version: 2.7.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19097/default_a446ce2f074889d1160eee4b4a2fde34af7525e6.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+  vulnerabilities:
+  - name: Unsanitized input leading to code injection in Dalli
+    cve_id: CVE-2022-4064
+    cve_url: https://github.com/advisories/GHSA-3xg8-cc8f-9wv2
+    detected_date: Nov 22
+    severity: low
+    first_patched: 3.2.3
+- name: delayed_job_active_record
+  description: ActiveRecord backend for Delayed::Job
+  package_url: https://rubygems.org/delayed_job_active_record
+  version: 4.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19216/default_e38d6385c75dafbe16c1c806ccf1fd483b747794.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-06-03 18:52:48.000000000 Z
+- name: draper
+  description: Draper adds an object-oriented layer of presentation logic to your
+    Rails apps
+  package_url: https://rubygems.org/draper
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19385/default_b0770ebdd12e1eb479a98261d0175b1714524f87.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-26 16:39:35.000000000 Z
+- name: dry-struct
+  description: Typed structs and value objects
+  package_url: https://rubygems.org/dry-struct
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19279/default_8afcc79bff7199de595503748306418047eb91e7.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-05-20 16:00:26.000000000 Z
+- name: factory_bot_rails
+  description: Factory_bot_rails provides integration between factory_bot and rails
+    4.2 or newer
+  package_url: https://rubygems.org/factory_bot_rails
+  version: 4.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19040/default_6307a3eb8ac1c7d425b9163e046ba444d20d3abd.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: faker
+  description: Faker
+  package_url: https://rubygems.org/faker
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-07 19:59:23.000000000 Z
+- name: feedjira
+  description: A feed parsing library
+  package_url: https://rubygems.org/feedjira
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19655/default_217a474c90a6421eca19a8e2dfa3b14100b29e9e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-30 14:10:56.000000000 Z
+- name: figaro
+  description: Simple
+  package_url: https://rubygems.org/figaro
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19607/default_ad0710c65b106932707389deb3b2e0b93a1ef7b6.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: fog-aws
+  description: This library can be used as a module for `fog` or as standalone provider
+    to use the Amazon Web Services in applications.
+  package_url: https://rubygems.org/fog-aws
+  version: 3.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19280/default_8c6b3854ff6d944252da77d1046a09badb8cdcb8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-05-15 20:43:56.000000000 Z
+- name: gemoji
+  description: Character information and metadata for standard and custom emoji
+  package_url: https://rubygems.org/gemoji
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19534/default_afbfef6f9528cdec6916c14cc6d3b3310a07088f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-05-06 18:02:17.000000000 Z
+- name: google-api-client
+  description: Client for accessing Google APIs
+  package_url: https://rubygems.org/google-api-client
+  version: 0.30.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19045/default_8e63d728a80a51124866bbe6b8c09396c40f1d4f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-21 14:46:26.000000000 Z
+- name: guard
+  description: Guard is a command line tool to easily handle events on file system
+    modifications
+  package_url: https://rubygems.org/guard
+  version: 2.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18840/default_1d2091bec60de04a519a030cf3cb21ea7f86b28a.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: guard-livereload
+  description: Guard::LiveReload automatically reloads your browser when 'view' files
+    are modified
+  package_url: https://rubygems.org/guard-livereload
+  version: 2.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19445/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-30 13:27:51.000000000 Z
+- name: guard-rspec
+  description: Guard::RSpec automatically run your specs
+  package_url: https://rubygems.org/guard-rspec
+  version: 4.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18831/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-12 14:58:35.000000000 Z
+- name: htmlentities
+  description: A module for encoding and decoding
+  package_url: https://rubygems.org/htmlentities
+  version: 4.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18995/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-27 20:03:48.000000000 Z
+- name: httparty
+  description: Makes http fun! Also
+  package_url: https://rubygems.org/httparty
+  version: 0.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18832/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mac Siri
+  last_updated_on: 2019-08-05 20:39:09.000000000 Z
+  vulnerabilities:
+  - name: httparty has multipart/form-data request tampering vulnerability
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-5pq7-52mg-hr42
+    detected_date: Jan 4
+    severity: moderate
+    first_patched: 0.21.0
+- name: jbuilder
+  description: Create JSON structures via a Builder-style DSL
+  package_url: https://rubygems.org/jbuilder
+  version: 2.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mac Siri
+  last_updated_on: 2019-06-03 19:01:05.000000000 Z
+- name: jquery-rails
+  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
+    application
+  package_url: https://rubygems.org/jquery-rails
+  version: 4.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+  vulnerabilities:
+  - name: jQuery Cross Site Scripting vulnerability
+    cve_id: CVE-2020-23064
+    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11022
+    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 4.4.0
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11023
+    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
+    detected_date: May 5
+    severity: moderate
+    first_patched: 4.4.0
+- name: kaminari
+  description: Kaminari is a Scope &amp;amp; Engine based
+  package_url: https://rubygems.org/kaminari
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18941/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+  vulnerabilities:
+  - name: Cross-Site Scripting in Kaminari
+    cve_id: CVE-2020-11082
+    cve_url: https://github.com/advisories/GHSA-r5jw-62xg-j433
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.1
+- name: launchy
+  description: Launchy is helper class for launching cross-platform applications in
+    a fire and forget manner
+  package_url: https://rubygems.org/launchy
+  version: 2.4.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18893/default_421783d7f975d1b076f260bea1d42f0b2621ca39.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: memory_profiler
+  description: Memory profiling routines for Ruby 2.3+
+  package_url: https://rubygems.org/memory_profiler
+  version: 0.9.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19745/default_9441b9831c402e8b1bbbeac1030603f41221911e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-30 13:27:51.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.10.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+  vulnerabilities:
+  - name: libxml as used in Nokogiri has an infinite loop in a certain end-of-file
+      situation
+    cve_id: CVE-2020-7595
+    cve_url: https://github.com/advisories/GHSA-7553-jr98-vx47
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.10.8
+  - name: Nokogiri Implements libxml2 version vulnerable to use-after-free
+    cve_id: CVE-2021-3518
+    cve_url: https://github.com/advisories/GHSA-v4f8-2847-rwm7
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri affected by zlib's Out-of-bounds Write vulnerability
+    cve_id: CVE-2018-25032
+    cve_url: https://github.com/advisories/GHSA-jc36-42cf-vqwj
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.4
+  - name: Improper Restriction of XML External Entity Reference (XXE) in Nokogiri
+      on JRuby
+    cve_id: CVE-2021-41098
+    cve_url: https://github.com/advisories/GHSA-2rr5-8q37-2w7h
+    detected_date: Sep 28
+    severity: high
+    first_patched: 1.12.5
+  - name: Nokogiri Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-24836
+    cve_url: https://github.com/advisories/GHSA-crjr-9rc5-ghw8
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Nokogiri Improperly Handles Unexpected Data Type
+    cve_id: CVE-2022-29181
+    cve_url: https://github.com/advisories/GHSA-xh29-r2w5-wx8m
+    detected_date: May 24
+    severity: high
+    first_patched: 1.13.6
+  - name: Nokogiri contains libxml Out-of-bounds Write vulnerability
+    cve_id: CVE-2021-3517
+    cve_url: https://github.com/advisories/GHSA-jw9f-hh49-cvp9
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.11.4
+  - name: Nokogiri implementation of libxslt vulnerable to heap corruption
+    cve_id: CVE-2019-5815
+    cve_url: https://github.com/advisories/GHSA-vmfx-gcfq-wvm2
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free
+      vulnerability
+    cve_id: CVE-2019-18197
+    cve_url: https://github.com/advisories/GHSA-242x-7cm6-4w8j
+    detected_date: Jul 8
+    severity: high
+    first_patched: 1.10.5
+  - name: Uninitialized read in Nokogiri gem
+    cve_id: CVE-2019-13117
+    cve_url: https://github.com/advisories/GHSA-4hm9-844j-jmxp
+    detected_date: Jun 10
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri has vulnerable dependencies on libxml2 and libxslt
+    cve_id: CVE-2021-30560
+    cve_url: https://github.com/advisories/GHSA-59gp-qqm7-cw4j
+    detected_date: Jun 28
+    severity: high
+    first_patched: 1.13.2
+  - name: Integer Overflow or Wraparound in libxml2 affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-cgx6-hpwq-fhv5
+    detected_date: May 19
+    severity: high
+    first_patched: 1.13.5
+  - name: Vulnerable dependencies in Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-fq42-c5rg-92c2
+    detected_date: Feb 26
+    severity: high
+    first_patched: 1.13.2
+  - name: Denial of Service (DoS) in Nokogiri on JRuby
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-gx8x-g87m-h5q6
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: Out-of-bounds Write in zlib affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-v6gp-9mmm-c6p5
+    detected_date: Apr 12
+    severity: high
+    first_patched: 1.13.4
+  - name: libxslt Type Confusion vulnerability that affects Nokogiri
+    cve_id: CVE-2019-13118
+    cve_url: https://github.com/advisories/GHSA-cf46-6xxh-pc75
+    detected_date: Mar 9
+    severity: high
+    first_patched: 1.10.5
+  - name: Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability
+    cve_id: CVE-2020-26247
+    cve_url: https://github.com/advisories/GHSA-vr8q-g5c7-m54m
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.0
+  - name: Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pxvg-2qj5-37jq
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.14.3
+  - name: Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing
+    cve_id: CVE-2021-3537
+    cve_url: https://github.com/advisories/GHSA-286v-pcf5-25rc
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 1.11.4
+  - name: Update bundled libxml2 to v2.10.3 to resolve multiple CVEs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-2qc6-mcvw-92cw
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.13.9
+  - name: XML Injection in Xerces Java affects Nokogiri
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xxx9-3xcr-gjj3
+    detected_date: Apr 12
+    severity: moderate
+    first_patched: 1.13.4
+  - name: Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-7rrm-v45f-jp64
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.11.4
+- name: omniauth-twitter
+  description: OmniAuth strategy for Twitter
+  package_url: https://rubygems.org/omniauth-twitter
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19712/default_aeaa8b24dd36f8e334bb5b9c0baaee88c37e0037.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-21 14:46:26.000000000 Z
+- name: parallel_tests
+  description: Run Test::Unit / RSpec / Cucumber / Spinach in parallel
+  package_url: https://rubygems.org/parallel_tests
+  version: 2.29.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19381/default_d06491b31bf23f206766eea6b3a6a79554fea530.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:02:01.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 1.1.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: pry
+  description: An IRB alternative and runtime developer console
+  package_url: https://rubygems.org/pry
+  version: 0.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: pry-byebug
+  description: Combine 'pry' with 'byebug'
+  package_url: https://rubygems.org/pry-byebug
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-30 18:29:05.000000000 Z
+- name: pry-rails
+  description: Use Pry as your rails console
+  package_url: https://rubygems.org/pry-rails
+  version: 0.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19013/default_3667c8b28d9ec2ad93884ef523ec8f357774f78e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: pundit
+  description: Object oriented authorization for Rails applications
+  package_url: https://rubygems.org/pundit
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19356/default_52558f51b74ce64c7cbad8d12a58dc6f69d14be8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-21 14:46:26.000000000 Z
+- name: redcarpet
+  description: A fast, safe and extensible Markdown to
+  package_url: https://rubygems.org/redcarpet
+  version: 3.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-06 19:06:55.000000000 Z
+  vulnerabilities:
+  - name: Injection/XSS in Redcarpet
+    cve_id: CVE-2020-26298
+    cve_url: https://github.com/advisories/GHSA-q3wr-qw3g-3p4h
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.5.1
+- name: rouge
+  description: Rouge aims to a be a simple
+  package_url: https://rubygems.org/rouge
+  version: 3.9.0
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19110/default_06b56c3cf87200ea8cc83429c79e5c5533c80ede.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 21:00:33.000000000 Z
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 3.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: rspec-retry
+  description: Retry intermittently failing rspec examples
+  package_url: https://rubygems.org/rspec-retry
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19748/default_79caf728b56af57fbfda07794cb12b2567cb6abf.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-12 14:58:35.000000000 Z
+- name: rubocop-performance
+  description: A collection of RuboCop cops to check for performance optimizations
+    in Ruby code
+  package_url: https://rubygems.org/rubocop-performance
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19003/default_ed0106f3a65a9fdb4ffde124a531663be2de70ba.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: rubocop-rails
+  description: Automatic Rails code style checking tool
+  package_url: https://rubygems.org/rubocop-rails
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: rubocop-rspec
+  description: Code style checking for RSpec files
+  package_url: https://rubygems.org/rubocop-rspec
+  version: 1.35.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18892/default_b7088ec778267614a78a5a472c67252ec1721d10.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: ruby-prof
+  description: Ruby-prof is a fast code profiler for Ruby
+  package_url: https://rubygems.org/ruby-prof
+  version: 1.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19062/default_7520676ca0e090ecd07df08a8e0994b056912237.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 21:00:33.000000000 Z
+- name: rubyzip
+  description: Rubyzip is a ruby module for reading and writing zip files
+  package_url: https://rubygems.org/rubyzip
+  version: 1.2.3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18887/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 21:00:33.000000000 Z
+  vulnerabilities:
+  - name: 'Rubyzip denial of service '
+    cve_id: CVE-2019-16892
+    cve_url: https://github.com/advisories/GHSA-5m2v-hc64-56h6
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.3.0
+- name: sass-rails
+  description: Sass adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/sass-rails
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:46:53.000000000 Z
+- name: sdoc
+  description: Rdoc generator html with javascript search index
+  package_url: https://rubygems.org/sdoc
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19261/default_4ed5689ec4d74680b66320d503f54e39a95d4848.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-16 14:45:24.000000000 Z
+- name: shoulda-matchers
+  description: Shoulda Matchers provides RSpec- and Minitest-compatible one-liners
+    to test common Rails functionality that
+  package_url: https://rubygems.org/shoulda-matchers
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-05 22:17:40.000000000 Z
+- name: simplecov
+  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
+    automatic merging of coverage across test suites
+  package_url: https://rubygems.org/simplecov
+  version: 0.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 21:28:17.000000000 Z
+- name: slack-notifier
+  description: A slim ruby wrapper for posting to slack webhooks
+  package_url: https://rubygems.org/slack-notifier
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19309/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-05-20 22:53:31.000000000 Z
+- name: spring
+  description: Preloads your application so things like console
+  package_url: https://rubygems.org/spring
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-01 16:20:30.000000000 Z
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 3.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: stackprof
+  description: Stackprof is a fast sampling profiler for ruby code
+  package_url: https://rubygems.org/stackprof
+  version: 0.2.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19598/default_88694c513ad6229305b102ea8a6b3d3fbdcd342e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:02:01.000000000 Z
+- name: timecop
+  description: A gem providing "time travel" and "time freezing" capabilities, making
+    it dead simple to test time-dependent code
+  package_url: https://rubygems.org/timecop
+  version: 0.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18861/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-01 16:20:30.000000000 Z
+- name: twilio-ruby
+  description: The official library for communicating with the Twilio REST API
+  package_url: https://rubygems.org/twilio-ruby
+  version: 5.25.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19357/default_2fbdc0f76c77ecb297e28f25874d22305f041b23.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 21:00:33.000000000 Z
+- name: twitter
+  description: A Ruby interface to the Twitter API
+  package_url: https://rubygems.org/twitter
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19017/default_4a7d337d343ba3aa0e0f5fbe745cfb34afef4187.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  version: 4.1.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: rhymes
+  last_updated_on: 2019-04-15 14:08:26.000000000 Z
+- name: vcr
+  description: Record your test suite's HTTP interactions and replay them during future
+    test runs for fast
+  package_url: https://rubygems.org/vcr
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18842/default_49e8e438a279d3b7963273823890f9482ce83fb4.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Mac Siri
+  last_updated_on: 2018-02-28 21:11:08.000000000 Z
+- name: webdrivers
+  description: Run Selenium tests more easily with install and updates for all supported
+    webdrivers
+  package_url: https://rubygems.org/webdrivers
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19420/default_16904f646648128b821ee8aabb068fa7a1b5025f.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 21:28:17.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  version: 3.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-06-10 14:49:23.000000000 Z
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  version: 0.9.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: Gemfile.lock
+  detection_source: docs/Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-01 17:15:57.000000000 Z
+- name: "@storybook/addon-actions"
+  description: Action Logger addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-actions
+  version: 3.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-12 15:36:04.000000000 Z
+- name: "@storybook/addon-links"
+  description: Story Links addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-links
+  version: 3.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-12 15:36:04.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 3.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-12 15:36:04.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 3.4.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: Nick Taylor
+  last_updated_on: 2019-08-19 12:58:41.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:47:42.000000000 Z
+- name: babel-plugin-transform-react-jsx
+  description: Turn JSX into React function calls
+  package_url: https://www.npmjs.com/babel-plugin-transform-react-jsx
+  version: 6.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16106/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:47:42.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 17.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 13.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: eslint-plugin-babel
+  description: An eslint rule plugin companion to babel-eslint
+  package_url: https://www.npmjs.com/eslint-plugin-babel
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15988/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.14.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: intersection-observer
+  description: A polyfill for IntersectionObserver
+  package_url: https://www.npmjs.com/intersection-observer
+  version: 0.7.0
+  license: W3C-20150513
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17476/default_a58bf1eaa94db61dd00126cc62306474c5213d3b.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-12 15:36:04.000000000 Z
+- name: jest-fetch-mock
+  description: Fetch mock for jest
+  package_url: https://www.npmjs.com/jest-fetch-mock
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17142/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-04-08 16:51:38.000000000 Z
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: rhymes
+  last_updated_on: 2019-06-18 18:58:24.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 0.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-07-08 18:26:34.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Marked ReDoS due to email addresses being evaluated in quadratic time
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xf5p-87ch-gxw2
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.6.2
+- name: preact-compat
+  description: A React compatibility layer for Preact
+  package_url: https://www.npmjs.com/preact-compat
+  version: 3.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17555/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2019-02-18 18:10:31.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 2.11.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: yarn.lock
+  detection_source: package.json
+  last_updated_by: rhymes
+  last_updated_on: 2019-08-12 15:36:04.000000000 Z
+  vulnerabilities:
+  - name: Missing Origin Validation in webpack-dev-server
+    cve_id: CVE-2018-14732
+    cve_url: https://github.com/advisories/GHSA-cf66-xwfp-gvc4
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.11
