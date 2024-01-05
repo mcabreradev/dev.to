@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 mcabreradev/dev.to is built on the following main stack:
+
 - [GitHub](https://github.com/) – Code Collaboration & Version Control
 - [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - [Stripe](https://stripe.com) – Payment Services
@@ -55,11 +56,13 @@ mcabreradev/dev.to is built on the following main stack:
 - [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 mcabreradev/dev.to is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg' alt='GitHub'/> [GitHub](https://github.com/) – Code Collaboration & Version Control
 - <img width='25' height='25' src='https://img.stackshare.io/service/43/kQ_6nwmP.jpg' alt='Twilio SendGrid'/> [Twilio SendGrid](http://sendgrid.com) – Transactional Email
 - <img width='25' height='25' src='https://img.stackshare.io/service/97/eW6tXeq3.png' alt='Stripe'/> [Stripe](https://stripe.com) – Payment Services
@@ -113,14 +116,15 @@ mcabreradev/dev.to is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png' alt='Algolia'/> [Algolia](https://www.algolia.com/?utm_source=stackshare&utm_medium=referral) – Search as a Service
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mcabreradev/dev.to](https://github.com/mcabreradev/dev.to)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|146<br/>Tools used|11/14/23 <br/>Report generated|
+|149<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -640,9 +644,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (87)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (90)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (66)
+## <img width='24' height='24' src='https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg'/> RubyGems (67)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -667,6 +671,7 @@ Full tech stack [here](/techstack.md)
 |[feedjira](https://rubygems.org/feedjira)|v3.0.0|07/30/19|dependabot-preview[bot] |MIT|N/A|
 |[figaro](https://rubygems.org/figaro)|v1.1.1|04/15/19|rhymes |MIT|N/A|
 |[fog-aws](https://rubygems.org/fog-aws)|v3.5.2|05/15/19|rhymes |MIT|N/A|
+|[foreman](https://rubygems.org/foreman)|v0.85.0|08/06/19|dependabot-preview[bot] |MIT|[CVE-2022-3874](https://github.com/advisories/GHSA-9jfq-54vc-9rr2) (Critical)|
 |[gemoji](https://rubygems.org/gemoji)|v3.0.1|05/06/19|dependabot[bot] |MIT|N/A|
 |[google-api-client](https://rubygems.org/google-api-client)|v0.30.8|08/21/19|dependabot-preview[bot] |Apache-2.0|N/A|
 |[guard](https://rubygems.org/guard)|v2.15.0|04/15/19|rhymes |MIT|N/A|
@@ -714,7 +719,7 @@ Full tech stack [here](/techstack.md)
 |[yard](https://rubygems.org/yard)|v0.9.20|07/01/19|dependabot-preview[bot] |MIT|N/A|
 
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (21)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (23)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -732,10 +737,12 @@ Full tech stack [here](/techstack.md)
 |[eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import)|v2.18.2|08/26/19|dependabot-preview[bot] |MIT|N/A|
 |[eslint-plugin-jsx-a11y](https://www.npmjs.com/eslint-plugin-jsx-a11y)|v6.2.3|08/26/19|dependabot-preview[bot] |MIT|N/A|
 |[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.14.3|08/26/19|dependabot-preview[bot] |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v3.0.4|08/20/19|dependabot-preview[bot] |MIT|N/A|
 |[intersection-observer](https://www.npmjs.com/intersection-observer)|v0.7.0|08/12/19|rhymes |W3C-20150513|N/A|
 |[jest-fetch-mock](https://www.npmjs.com/jest-fetch-mock)|v2.1.2|04/08/19|dependabot[bot] |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v9.2.4|08/26/19|dependabot-preview[bot] |MIT|N/A|
 |[lodash.debounce](https://www.npmjs.com/lodash.debounce)|v4.0.8|06/18/19|rhymes |MIT|N/A|
-|[marked](https://www.npmjs.com/marked)|v0.3.19|07/08/19|dependabot-preview[bot] |MIT|[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[](https://github.com/advisories/GHSA-xf5p-87ch-gxw2) (Moderate)|
+|[marked](https://www.npmjs.com/marked)|v0.3.19|07/08/19|dependabot-preview[bot] |MIT|[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[](https://github.com/advisories/GHSA-xf5p-87ch-gxw2) (Moderate)|
 |[preact-compat](https://www.npmjs.com/preact-compat)|v3.19.0|08/26/19|dependabot-preview[bot] |MIT|N/A|
 |[prop-types](https://www.npmjs.com/prop-types)|v15.7.2|02/18/19|dependabot[bot] |MIT|N/A|
 |[webpack-dev-server](https://www.npmjs.com/webpack-dev-server)|v2.11.5|08/12/19|rhymes |MIT|[CVE-2018-14732](https://github.com/advisories/GHSA-cf66-xwfp-gvc4) (High)|
@@ -743,4 +750,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
