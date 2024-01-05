@@ -1,11 +1,12 @@
 repo_name: mcabreradev/dev.to
 report_id: 52514536b03dc64af98ef4a677f23979
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-14T15:29:22+00:00'
+timestamp: '2024-01-05T08:45:04+00:00'
 requested_by: mariocsee
 provider: github
 branch: master
-detected_tools_count: 146
+detected_tools_count: 149
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mcabreradev/dev.to
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mcabreradev/dev.to
   detection_source: Repo Metadata
 - name: Liquid
   description: Open-source template language written in Ruby
@@ -36,7 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1746/no-img-open-source.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -50,8 +53,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
-  detection_source_url: Gemfile.lock
-  detection_source: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
+  detection_source: Repo Metadata
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
 - name: Chart.js
@@ -63,7 +66,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-03-18 15:21:55.000000000 Z
@@ -76,6 +79,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Michael
   last_updated_on: 2018-10-12 15:48:53.000000000 Z
@@ -89,7 +93,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/4388/preact.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Nick Taylor
   last_updated_on: 2019-08-19 12:58:41.000000000 Z
@@ -103,7 +107,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/990/x57_Lorv.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -117,7 +121,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: app/javascript/article-form/__tests__/articleForm.test.jsx
   last_updated_by: Derek Hopper
   last_updated_on: 2018-09-12 01:33:48.000000000 Z
@@ -131,7 +135,7 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: rhymes
   last_updated_on: 2019-08-12 15:36:04.000000000 Z
@@ -144,6 +148,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -155,6 +160,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -166,6 +172,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/115/preview.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-27 20:03:48.000000000 Z
@@ -178,6 +185,7 @@ tools:
   category: Monitoring
   sub_category: Exception Monitoring
   image_url: https://img.stackshare.io/service/194/default_2e86c2914d7024c92debaced975586491c2fb0f1.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/config/initializers/airbrake.rb
   detection_source: config/initializers/airbrake.rb
   last_updated_by: rhymes
   last_updated_on: 2019-04-24 15:41:16.000000000 Z
@@ -191,8 +199,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
+  detection_source: ".babelrc"
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
 - name: Brakeman
@@ -205,7 +213,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/6577/7b894961369b7c73e2a32f11f845e049_400x400.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-06 18:48:28.000000000 Z
@@ -219,7 +227,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2595/capybara.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-12 14:03:33.000000000 Z
@@ -233,7 +241,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Text Editor
   image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-21 14:47:26.000000000 Z
@@ -246,6 +254,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mcabreradev/dev.to
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -256,6 +265,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/package.json
   detection_source: package.json
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -267,6 +277,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mcabreradev/dev.to
   detection_source: Repo Metadata
 - name: GitHub
   description: Powerful collaboration, review, and code management for open source
@@ -277,6 +288,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Collaboration & Version Control
   image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-04-15 18:28:14.000000000 Z
@@ -290,7 +302,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -303,6 +315,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Live Reloading
   image_url: https://img.stackshare.io/service/2601/128.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-30 13:27:51.000000000 Z
@@ -314,6 +327,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Tools for GitHub
   image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-04-15 18:28:14.000000000 Z
@@ -327,7 +341,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -341,8 +355,8 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1055/favicon.png
-  detection_source_url: Gemfile.lock
-  detection_source: config/puma.rb
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-20 21:17:52.000000000 Z
 - name: RSpec
@@ -355,7 +369,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2539/logo.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-12 14:58:35.000000000 Z
@@ -369,7 +383,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Rails Testing
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -383,7 +397,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/2643/rubocop.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-06-24 13:27:38.000000000 Z
@@ -395,6 +409,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/docs/Gemfile
   detection_source: docs/Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-05-13 23:21:24.000000000 Z
@@ -406,6 +421,7 @@ tools:
   category: Monitoring
   sub_category: Performance Monitoring
   image_url: https://img.stackshare.io/service/1395/mJIgpLfu.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 21:00:33.000000000 Z
@@ -418,6 +434,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/7634/xBNoTqvy_400x400.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-08-07 19:59:23.000000000 Z
@@ -430,6 +447,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Mac Siri
   last_updated_on: 2018-07-16 21:11:42.000000000 Z
@@ -443,8 +461,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
+  detection_source: app/javascript/.storybook/webpack.config.js
   last_updated_by: Nick Taylor
   last_updated_on: 2018-06-05 18:50:30.000000000 Z
 - name: Webpacker
@@ -457,8 +475,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: Gemfile.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-30 13:27:51.000000000 Z
 - name: Yarn
@@ -469,6 +487,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: yarn.lock
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -483,7 +502,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/7054/preview.jpeg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-06-03 17:44:38.000000000 Z
@@ -495,6 +514,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/package.json
   detection_source: package.json
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -507,6 +527,7 @@ tools:
   category: Application Hosting
   sub_category: Platform as a Service
   image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -519,6 +540,7 @@ tools:
   category: Analytics
   sub_category: Custom Analytics
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -531,7 +553,7 @@ tools:
   category: Application Utilities
   sub_category: Search as a Service
   image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-01 16:20:30.000000000 Z
@@ -545,7 +567,7 @@ tools:
   category: Assets and Media
   sub_category: File Uploads
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-30 13:27:51.000000000 Z
@@ -558,6 +580,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/304/default_d0fb82038ec18f67ca33bf6ce0df0bffb427e94f.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -569,6 +592,7 @@ tools:
   category: Assets and Media
   sub_category: Content Delivery Network
   image_url: https://img.stackshare.io/service/274/9V2sLNfw.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -581,6 +605,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/netlify.toml
   detection_source: netlify.toml
   last_updated_by: Mac Siri
   last_updated_on: 2018-08-16 19:52:56.000000000 Z
@@ -592,6 +617,7 @@ tools:
   category: Payments
   sub_category: Payment Services
   image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-12 15:54:48.000000000 Z
@@ -603,6 +629,7 @@ tools:
   category: Communications
   sub_category: Transactional Email
   image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/config/environments/production.rb
   detection_source: config/environments/production.rb
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -615,6 +642,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Operating Systems
   image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Dockerfile
   detection_source: Dockerfile
   last_updated_by: Mazen Touati
   last_updated_on: 2019-06-17 20:51:11.000000000 Z
@@ -628,7 +656,7 @@ tools:
   category: Application Utilities
   sub_category: Ruby Utilities
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -642,7 +670,7 @@ tools:
   category: Application Utilities
   sub_category: User Management and Authentication
   image_url: https://img.stackshare.io/service/1432/devise.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -651,6 +679,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3926/no-img-open-source.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-06 18:48:28.000000000 Z
@@ -662,6 +691,7 @@ tools:
   category: Application Utilities
   sub_category: Security
   image_url: https://img.stackshare.io/service/4482/dVHQiE0t_400x400.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-12 15:54:07.000000000 Z
@@ -675,7 +705,7 @@ tools:
   category: Application Utilities
   sub_category: User Management and Authentication
   image_url: https://img.stackshare.io/service/1433/omniauth.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -688,6 +718,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/mcabreradev/dev.to
   detection_source: Repo Metadata
 - name: Twitter API
   description: Build bots that communicate smartly.
@@ -695,6 +726,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2466/twitterdev_gear.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-20 17:57:33.000000000 Z
@@ -706,6 +738,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -714,6 +747,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/package.json
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-20 17:56:05.000000000 Z
@@ -722,6 +756,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/package.json
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -735,7 +770,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: docs/Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-05-02 17:50:58.000000000 Z
@@ -768,7 +803,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19285/default_ac42935b3c127ddbb54411fa307a9bc56ea68440.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-15 14:55:02.000000000 Z
@@ -783,7 +818,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19310/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-01 16:20:30.000000000 Z
@@ -798,7 +833,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18870/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-08-07 19:59:23.000000000 Z
@@ -819,7 +854,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19542/default_562580b79fad90dfa9e41120387ed1e3bf8ace9d.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-15 19:18:01.000000000 Z
@@ -841,7 +876,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19520/default_6fb1d8b9aef837cfaccc78fd09408418629c0be8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-01 16:30:42.000000000 Z
@@ -856,7 +891,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19215/default_e38d6385c75dafbe16c1c806ccf1fd483b747794.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -871,7 +906,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18862/default_2fe576f13c88e20e645ee0a744c045ee730bcad6.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-06-17 17:37:36.000000000 Z
@@ -885,7 +920,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-26 15:54:10.000000000 Z
@@ -906,7 +941,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19104/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-06-03 18:50:35.000000000 Z
@@ -920,7 +955,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19086/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-05-02 17:50:58.000000000 Z
@@ -934,7 +969,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Mac Siri
   last_updated_on: 2019-06-03 19:01:05.000000000 Z
@@ -948,7 +983,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19097/default_a446ce2f074889d1160eee4b4a2fde34af7525e6.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -969,7 +1004,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19216/default_e38d6385c75dafbe16c1c806ccf1fd483b747794.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-06-03 18:52:48.000000000 Z
@@ -984,7 +1019,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19385/default_b0770ebdd12e1eb479a98261d0175b1714524f87.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-26 16:39:35.000000000 Z
@@ -998,7 +1033,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19279/default_8afcc79bff7199de595503748306418047eb91e7.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-05-20 16:00:26.000000000 Z
@@ -1013,7 +1048,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19040/default_6307a3eb8ac1c7d425b9163e046ba444d20d3abd.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1027,7 +1062,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18897/default_31c6044490fb5c1bec1388b8ceb466b6ac78ae92.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-08-07 19:59:23.000000000 Z
@@ -1041,7 +1076,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19655/default_217a474c90a6421eca19a8e2dfa3b14100b29e9e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-30 14:10:56.000000000 Z
@@ -1055,7 +1090,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19607/default_ad0710c65b106932707389deb3b2e0b93a1ef7b6.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1070,10 +1105,31 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19280/default_8c6b3854ff6d944252da77d1046a09badb8cdcb8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-05-15 20:43:56.000000000 Z
+- name: foreman
+  description: Process manager for applications with multiple components
+  package_url: https://rubygems.org/foreman
+  version: 0.85.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19171/default_74d70efce37b0089808c0189b3b911b14c326c76.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-06 18:48:28.000000000 Z
+  vulnerabilities:
+  - name: Foreman Transpilation Enables OS Command Injection
+    cve_id: CVE-2022-3874
+    cve_url: https://github.com/advisories/GHSA-9jfq-54vc-9rr2
+    detected_date: Sep 27
+    severity: critical
+    first_patched: 
 - name: gemoji
   description: Character information and metadata for standard and custom emoji
   package_url: https://rubygems.org/gemoji
@@ -1084,7 +1140,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19534/default_afbfef6f9528cdec6916c14cc6d3b3310a07088f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-05-06 18:02:17.000000000 Z
@@ -1098,7 +1154,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19045/default_8e63d728a80a51124866bbe6b8c09396c40f1d4f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-21 14:46:26.000000000 Z
@@ -1113,7 +1169,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18840/default_1d2091bec60de04a519a030cf3cb21ea7f86b28a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1128,7 +1184,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19445/default_e747a715ce0379afdb68c78657d70e4a512bf5f4.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-30 13:27:51.000000000 Z
@@ -1142,7 +1198,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18831/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-12 14:58:35.000000000 Z
@@ -1156,7 +1212,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18995/default_33b08efb2463b893403b434b8c4275715d78743b.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-27 20:03:48.000000000 Z
@@ -1170,7 +1226,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18832/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Mac Siri
   last_updated_on: 2019-08-05 20:39:09.000000000 Z
@@ -1191,7 +1247,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Mac Siri
   last_updated_on: 2019-06-03 19:01:05.000000000 Z
@@ -1206,7 +1262,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1239,7 +1295,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18941/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1261,7 +1317,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18893/default_421783d7f975d1b076f260bea1d42f0b2621ca39.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1275,7 +1331,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19745/default_9441b9831c402e8b1bbbeac1030603f41221911e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-30 13:27:51.000000000 Z
@@ -1289,7 +1345,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1439,7 +1495,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19712/default_aeaa8b24dd36f8e334bb5b9c0baaee88c37e0037.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-21 14:46:26.000000000 Z
@@ -1453,7 +1509,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19381/default_d06491b31bf23f206766eea6b3a6a79554fea530.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:02:01.000000000 Z
@@ -1467,7 +1523,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -1481,7 +1537,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -1495,7 +1551,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-30 18:29:05.000000000 Z
@@ -1509,7 +1565,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19013/default_3667c8b28d9ec2ad93884ef523ec8f357774f78e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1523,7 +1579,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19356/default_52558f51b74ce64c7cbad8d12a58dc6f69d14be8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-21 14:46:26.000000000 Z
@@ -1537,7 +1593,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-06 19:06:55.000000000 Z
@@ -1558,7 +1614,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19110/default_06b56c3cf87200ea8cc83429c79e5c5533c80ede.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 21:00:33.000000000 Z
@@ -1572,7 +1628,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1586,7 +1642,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19748/default_79caf728b56af57fbfda07794cb12b2567cb6abf.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-12 14:58:35.000000000 Z
@@ -1601,7 +1657,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19003/default_ed0106f3a65a9fdb4ffde124a531663be2de70ba.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1615,7 +1671,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1629,7 +1685,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18892/default_b7088ec778267614a78a5a472c67252ec1721d10.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1643,7 +1699,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19062/default_7520676ca0e090ecd07df08a8e0994b056912237.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 21:00:33.000000000 Z
@@ -1657,7 +1713,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18887/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 21:00:33.000000000 Z
@@ -1678,7 +1734,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:46:53.000000000 Z
@@ -1692,7 +1748,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19261/default_4ed5689ec4d74680b66320d503f54e39a95d4848.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-16 14:45:24.000000000 Z
@@ -1707,7 +1763,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18912/default_f78521c51e3a38a8810251cfa8909b18ae0b40a8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-05 22:17:40.000000000 Z
@@ -1722,7 +1778,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 21:28:17.000000000 Z
@@ -1736,7 +1792,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19309/default_328c11a8ee25b2bcdb614a295e29c3b1b00779cf.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-05-20 22:53:31.000000000 Z
@@ -1750,7 +1806,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-01 16:20:30.000000000 Z
@@ -1765,7 +1821,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1779,7 +1835,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19598/default_88694c513ad6229305b102ea8a6b3d3fbdcd342e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:02:01.000000000 Z
@@ -1794,7 +1850,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18861/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-01 16:20:30.000000000 Z
@@ -1808,7 +1864,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19357/default_2fbdc0f76c77ecb297e28f25874d22305f041b23.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 21:00:33.000000000 Z
@@ -1822,7 +1878,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19017/default_4a7d337d343ba3aa0e0f5fbe745cfb34afef4187.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1837,7 +1893,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: rhymes
   last_updated_on: 2019-04-15 14:08:26.000000000 Z
@@ -1852,7 +1908,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18842/default_49e8e438a279d3b7963273823890f9482ce83fb4.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: Mac Siri
   last_updated_on: 2018-02-28 21:11:08.000000000 Z
@@ -1867,7 +1923,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19420/default_16904f646648128b821ee8aabb068fa7a1b5025f.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 21:28:17.000000000 Z
@@ -1882,7 +1938,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: Gemfile.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-06-10 14:49:23.000000000 Z
@@ -1896,8 +1952,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source_url: Gemfile.lock
-  detection_source: docs/Gemfile
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/Gemfile.lock
+  detection_source: Gemfile
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-01 17:15:57.000000000 Z
 - name: "@storybook/addon-actions"
@@ -1910,7 +1966,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16126/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: rhymes
   last_updated_on: 2019-08-12 15:36:04.000000000 Z
@@ -1924,7 +1980,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16204/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: rhymes
   last_updated_on: 2019-08-12 15:36:04.000000000 Z
@@ -1938,7 +1994,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: rhymes
   last_updated_on: 2019-08-12 15:36:04.000000000 Z
@@ -1953,7 +2009,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Nick Taylor
   last_updated_on: 2019-08-19 12:58:41.000000000 Z
@@ -1967,7 +2023,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -1981,7 +2037,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:47:42.000000000 Z
@@ -1995,7 +2051,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16106/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:47:42.000000000 Z
@@ -2009,7 +2065,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -2023,7 +2079,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -2037,7 +2093,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -2051,7 +2107,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15988/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -2065,7 +2121,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -2079,7 +2135,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -2093,10 +2149,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 3.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-20 17:56:05.000000000 Z
 - name: intersection-observer
   description: A polyfill for IntersectionObserver
   package_url: https://www.npmjs.com/intersection-observer
@@ -2107,7 +2177,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17476/default_a58bf1eaa94db61dd00126cc62306474c5213d3b.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: rhymes
   last_updated_on: 2019-08-12 15:36:04.000000000 Z
@@ -2121,10 +2191,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17142/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-04-08 16:51:38.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 9.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-26 20:48:43.000000000 Z
 - name: lodash.debounce
   description: The lodash method `_.debounce` exported as a module
   package_url: https://www.npmjs.com/lodash.debounce
@@ -2135,7 +2219,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: rhymes
   last_updated_on: 2019-06-18 18:58:24.000000000 Z
@@ -2149,20 +2233,20 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-07-08 18:26:34.000000000 Z
   vulnerabilities:
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21680
-    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21681
-    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
@@ -2182,7 +2266,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17555/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 20:48:43.000000000 Z
@@ -2196,7 +2280,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2019-02-18 18:10:31.000000000 Z
@@ -2210,7 +2294,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/mcabreradev/dev.to/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: rhymes
   last_updated_on: 2019-08-12 15:36:04.000000000 Z
